@@ -1,0 +1,91 @@
+
+
+.view-switcher {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.view-switcher button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  margin-top: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: #333; /* Dark background color */
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.view-switcher button.active {
+  background-color: #555; /* Slightly lighter color for active state */
+}
+
+.view-switcher button:focus {
+  outline: none;
+}
+
+.forme {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #555; /* Darker border color */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  background-color: #444; /* Dark background color */
+  display: flex;
+  flex-direction: column;
+}
+
+.h {
+  text-align: center;
+  color:whitesmoke;
+}
+
+.lab {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.inp{
+ 
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #555; /* Darker border color */
+  border-radius: 5px;
+  background-color: #333; /* Dark background color for input */
+  color: #fff;
+}
+
+.but[type="submit"]{
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #555; /* Dark background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.but:hover {
+  background-color: #777; /* Slightly lighter color on hover */
+}
+.App
+{
+ 
+   background-color: #000; /* Set the background color of the page to black */
+   
+   align-items: center;
+   text-align: center;
+   
+   justify-content: center;
+   height: 100vh; /* Make sure the container takes the full height of the viewport */
+
+ 
+}
